@@ -1,0 +1,94 @@
+/* HEADER STYLING */
+
+.Header{
+    background-image: url(./IMAGES/back.jpg);
+    background-size: 100% 100%;
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.Sub_Header{
+    display: flex;
+    width: 1200px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+.h1{
+    width: 600px;
+}
+.Pf_Pic{
+    background-color: honeydew;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.Pf_Pic > img{
+    border-radius: 50%;
+}
+
+/* DESCRIPTION STYLING */
+
+.Desc{
+    /* background-color: bisque; */
+    /* height: 300px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Sub_Desc{
+    width: 1300px;
+    font-size: large;
+}
+
+/* CONTENT */
+
+.CONTENT{
+    background-color: beige;
+    /* height: 500px; */
+}
+.CONTENT > p{
+    font-size: larger;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.albums{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(1, 320px);
+    gap: 50px;
+    justify-content: center;
+}
+.albums > div{
+    background-color: red;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.al_pc > a > img{
+    border-radius: 50px;
+    height: 250px;
+    width: 250px; 
+}
+.al_pc h3{
+    margin: 0px;
+}
+
+/* FOOTER */
+
+.FOOTER{
+    background-image: url(./IMAGES/back.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
