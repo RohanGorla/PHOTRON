@@ -63,12 +63,6 @@
     gap: 50px;
     justify-content: center;
 }
-@media (max-width: 1450px){
-    .albums{
-        grid-template-columns: repeat(2, 300px);
-        grid-template-rows: repeat(2, 320px);
-        gap: 200px;
-    }
 .albums > div{
     background-color: red;
     border-radius: 50px;
@@ -85,6 +79,12 @@
 .al_pc h3{
     margin: 0px;
 }
+@media (max-width: 1450px){
+    .albums{
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: repeat(2, 320px);
+        gap: 200px;
+    }
 
 /* FOOTER */
 
