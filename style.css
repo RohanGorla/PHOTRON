@@ -52,7 +52,7 @@
     /* height: 500px; */
 }
 .CONTENT > p{
-    font-size: larger;
+    font-size: xx-large;
     padding-top: 50px;
     padding-bottom: 30px;
 }
@@ -63,6 +63,12 @@
     gap: 50px;
     justify-content: center;
 }
+@media (max-width: 1450px){
+    .albums{
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: repeat(2, 320px);
+        gap: 200px;
+    }
 .albums > div{
     background-color: red;
     border-radius: 50px;
